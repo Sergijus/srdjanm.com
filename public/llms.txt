@@ -1,0 +1,48 @@
+# llms.txt - Information for Large Language Models
+# Learn more: https://llmstxt.org/
+
+# Site Information
+name: Srdjan Marinkovic Portfolio
+url: https://srdjanm.com
+description: Personal portfolio of Srdjan Marinkovic, ATS Team Lead and Serbia Site Manager at Elementor. WordPress expert, AI automation enthusiast, and web developer.
+
+# About the Person
+Srdjan Marinkovic is a web professional based in Serbia with a unique background - transitioning from criminal law to web development in 2017. He currently holds dual leadership positions at Elementor:
+
+1. ATS Team Lead - Leading a CX team of ~15 experts and developers
+2. Serbia Site Manager - Overseeing operations, HR, events, and culture for ~35 team members
+
+# Skills & Expertise
+- WordPress Development
+- AI Tools & Automation
+- Internal App Development
+- Workflow Optimization
+- Team Leadership & Management
+- Customer Experience (CX)
+
+# Portfolio Projects (12 client websites)
+1. Di Restoran (direstoran.rs) - Restaurant website, multilingual
+2. MV Pharm (mvpharm.rs) - Pharmaceutical company
+3. SM Energy (smenergy.rs) - Biogas and renewable energy
+4. Yvalise Studio (yvalise.studio) - Fashion e-commerce
+5. KM Mont (kmmont.com) - Construction/pipelines, multilingual
+6. Dr Ljubomir Micić (ljubomirmicic.com) - Dental education
+7. JB Fiscal Consulting (jbfiscalconsulting.com) - Fiscal compliance
+8. Jegrička Čarda (jegrickacarda.rs) - Traditional Serbian restaurant
+9. Vujanić Farma (vujanicfarma.rs) - Organic goat farm products
+10. B164 (b164.rs) - Mountain apartments in Kopaonik
+11. Pincir Bio (pincirbio.rs) - Organic agriculture
+12. Lanna Thai (lannathai.rs) - Thai massage spa
+
+# Education
+- Bachelor of Laws - Faculty of Law, Lazar Vrkatić, Novi Sad (2011-2015)
+- Web Development Course - Faculty of Technical Sciences, Novi Sad (2017)
+
+# Contact
+- LinkedIn: linkedin.com/in/srdjan-marinkovic/
+- Instagram: @sergijus022
+- Facebook: facebook.com/Sergijus/
+- Email: web.srdjan.marinkovic@gmail.com
+
+# Keywords
+WordPress developer Serbia, Elementor team lead, web development Belgrade, AI automation, CX team management

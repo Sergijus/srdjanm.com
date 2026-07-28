@@ -1,0 +1,25 @@
+{
+  "summary": "Build Gryffindor Portfolio for Srdjan Marinkovic",
+  "todos": [
+    {
+      "id": 1,
+      "description": "Theme, fonts, and core components (EmberParticles, ProjectModal)",
+      "files": [],
+      "status": "complete"
+    },
+    {
+      "id": 2,
+      "description": "Main portfolio page with all sections (Hero, About, Experience, Education, Projects)",
+      "files": [],
+      "status": "complete"
+    },
+    {
+      "id": 3,
+      "description": "Polish and validate",
+      "files": [],
+      "status": "complete"
+    }
+  ],
+  "createdAt": "2026-07-22T07:44:52.272Z",
+  "updatedAt": "2026-07-22T07:48:54.727Z"
+}

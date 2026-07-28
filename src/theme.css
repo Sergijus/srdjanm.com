@@ -1,0 +1,107 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * Gryffindor-themed portfolio for Srdjan Marinkovic
+ */
+@theme {
+	/* Gryffindor Colors */
+	--color-crimson: #8B0000;
+	--color-crimson-light: #A52A2A;
+	--color-crimson-dark: #5C0000;
+	
+	--color-gold: #D4AF37;
+	--color-gold-light: #F4D03F;
+	--color-gold-dark: #B8860B;
+	
+	--color-parchment: #F4E4C1;
+	--color-parchment-dark: #E8D5A3;
+	
+	--color-ink: #1A1A1D;
+	--color-ink-light: #2D2D30;
+	--color-ink-dark: #0D0D0F;
+	
+	/* Semantic mappings */
+	--color-primary: var(--color-crimson);
+	--color-primary-foreground: var(--color-parchment);
+
+	--color-secondary: var(--color-gold);
+	--color-secondary-foreground: var(--color-ink);
+
+	--color-destructive: #DC2626;
+	--color-destructive-foreground: #FFFFFF;
+
+	--color-muted: var(--color-ink-light);
+	--color-muted-foreground: #9CA3AF;
+
+	--color-accent: var(--color-gold);
+	--color-accent-foreground: var(--color-ink);
+
+	--color-border: #3D3D4080;
+	--color-input: #2D2D30;
+	--color-ring: var(--color-gold);
+
+	/* Radius */
+	--radius-sm: 0.25rem;
+	--radius-md: 0.5rem;
+	--radius-lg: 0.75rem;
+	--radius-xl: 1rem;
+
+	/* Typography */
+	--font-display: 'Cinzel', serif;
+	--font-body: 'Lora', serif;
+	--font-sans: 'Lora', serif;
+}
+
+/* Custom scrollbar for the magical feel */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1A1A1D;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, #D4AF37, #8B0000);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(180deg, #F4D03F, #A52A2A);
+}
+
+/* Parchment texture overlay class */
+.parchment-texture {
+	position: relative;
+}
+
+.parchment-texture::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+	opacity: 0.03;
+	pointer-events: none;
+	z-index: 1;
+}
+
+/* Glow effect for interactive elements */
+.glow-gold {
+	box-shadow: 0 0 20px #D4AF3740, 0 0 40px #D4AF3720;
+}
+
+.glow-gold-hover:hover {
+	box-shadow: 0 0 30px #D4AF3760, 0 0 60px #D4AF3730;
+}
+
+/* Vignette effect */
+.vignette {
+	position: relative;
+}
+
+.vignette::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(ellipse at center, transparent 40%, #0D0D0F 100%);
+	pointer-events: none;
+}
