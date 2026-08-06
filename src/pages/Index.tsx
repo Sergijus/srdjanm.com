@@ -395,8 +395,68 @@ export default function Index() {
 				</div>
 			</AnimatedSection>
 
-			{/* Work Experience Section */}
+			{/* Skills & Expertise Section */}
 			<AnimatedSection className="py-24 px-6 bg-gradient-to-b from-ink-dark via-ink to-ink-dark">
+				<div data-ev-id="ev_734d1414ab" className="max-w-4xl mx-auto">
+					{/* Section header */}
+					<div data-ev-id="ev_1510d9543d" className="flex items-center gap-4 mb-12">
+						<div data-ev-id="ev_58f517153a" className="h-px flex-1 bg-gradient-to-r from-gold-dark to-transparent" />
+						<h2 data-ev-id="ev_d67b273438" className="font-display text-2xl md:text-3xl text-gold uppercase tracking-[0.15em]">
+							Skills & Expertise
+						</h2>
+						<div data-ev-id="ev_7f6a9a619e" className="h-px flex-1 bg-gradient-to-l from-gold-dark to-transparent" />
+					</div>
+
+					{/* Skills card */}
+					<div data-ev-id="ev_46ea495d36" className="bg-ink-light border border-border-card rounded-lg p-8 md:p-10">
+						<div data-ev-id="ev_a94f5caea1" className="grid grid-cols-1 md:grid-cols-3 gap-8">
+							{/* Leadership & Management */}
+							<div data-ev-id="ev_7781456d31">
+								<h3 data-ev-id="ev_42b7db6488" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+									Leadership & Management
+								</h3>
+								<div data-ev-id="ev_bbf12af1f0" className="flex flex-wrap gap-2">
+									<span data-ev-id="ev_c5ec47494f" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Technical team management</span>
+									<span data-ev-id="ev_990257b050" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Reports & planning</span>
+									<span data-ev-id="ev_ea90342ff0" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">KPIs & team improvement</span>
+									<span data-ev-id="ev_3612de49da" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Motivation & processes</span>
+									<span data-ev-id="ev_15a9ee35e7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">SMART / Agile</span>
+								</div>
+							</div>
+
+							{/* Technical */}
+							<div data-ev-id="ev_6ee29e0ba7">
+								<h3 data-ev-id="ev_73ac054781" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+									Technical
+								</h3>
+								<div data-ev-id="ev_a68a6c71a2" className="flex flex-wrap gap-2">
+									<span data-ev-id="ev_f94077d4d7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">WordPress</span>
+									<span data-ev-id="ev_52040e2a13" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Front-end development</span>
+									<span data-ev-id="ev_ec493d5005" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">HTML / CSS / JS / TS</span>
+									<span data-ev-id="ev_f470066def" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">React</span>
+									<span data-ev-id="ev_73d216ad00" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">JIRA / Confluence</span>
+									<span data-ev-id="ev_864ba69f0c" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">AI — advanced</span>
+								</div>
+							</div>
+
+							{/* Other */}
+							<div data-ev-id="ev_2b5ee33b6a">
+								<h3 data-ev-id="ev_24ec2edd70" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+									Other
+								</h3>
+								<div data-ev-id="ev_1eb77813da" className="flex flex-wrap gap-2">
+									<span data-ev-id="ev_5b23721d91" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Public speaker</span>
+									<span data-ev-id="ev_f48730a7db" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">English — advanced</span>
+									<span data-ev-id="ev_413a25d7e1" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Serbian — native</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</AnimatedSection>
+
+			{/* Work Experience Section */}
+			<AnimatedSection className="py-24 px-6">
 				<div data-ev-id="ev_568de6c3e1" className="max-w-5xl mx-auto">
 					{/* Section header */}
 					<div data-ev-id="ev_293b664b79" className="flex items-center gap-4 mb-16">
