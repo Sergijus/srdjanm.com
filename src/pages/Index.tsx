@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, FormEvent } from 'react';
 import { motion, useInView } from 'motion/react';
 import { ChevronDown, Briefcase, GraduationCap, ExternalLink, Linkedin, Mail, Facebook, Instagram } from 'lucide-react';
 import { EmberParticles } from '@/components/EmberParticles';
@@ -479,6 +479,67 @@ export default function Index() {
 				</div>
 			</AnimatedSection>
 
+			{/* Contact Section */}
+			<AnimatedSection className="py-24 px-6">
+				<div data-ev-id="ev_e403cee249" className="max-w-3xl mx-auto">
+					{/* Section header */}
+					<div data-ev-id="ev_7272b39fe1" className="text-center mb-12">
+						<div data-ev-id="ev_6f55cdd7f3" className="flex items-center justify-center gap-4 mb-6">
+							<div data-ev-id="ev_0be5d06f55" className="h-px w-16 bg-gradient-to-r from-transparent to-gold/50" />
+							<Mail className="text-gold" size={28} />
+							<div data-ev-id="ev_fccb37a9d7" className="h-px w-16 bg-gradient-to-l from-transparent to-gold/50" />
+						</div>
+						<h2 data-ev-id="ev_c72bb9c06b" className="font-display text-3xl md:text-4xl text-gold uppercase tracking-[0.15em] mb-4">
+							Let's Work Together
+						</h2>
+						<p data-ev-id="ev_d6e0acaa2e" className="text-parchment/70 max-w-xl mx-auto">
+							Have a project in mind or just want to say hello? I'd love to hear from you. Let's create something extraordinary together.
+						</p>
+					</div>
+
+					{/* Contact Form */}
+					<ContactForm />
+
+					{/* Social Icons */}
+					<div data-ev-id="ev_3a33eb1b52" className="flex items-center justify-center gap-6 mt-12">
+						<a data-ev-id="ev_098cdc2aa5"
+            href="https://www.facebook.com/webmastermarinkovic"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            aria-label="Facebook">
+
+							<Facebook size={20} />
+						</a>
+						<a data-ev-id="ev_ada4e749fd"
+            href="https://www.instagram.com/srdjanm.rs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            aria-label="Instagram">
+
+							<Instagram size={20} />
+						</a>
+						<a data-ev-id="ev_acfe7eae25"
+            href="https://www.linkedin.com/in/srdjanmarinkovic/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            aria-label="LinkedIn">
+
+							<Linkedin size={20} />
+						</a>
+						<a data-ev-id="ev_28022b9e43"
+            href="mailto:hello@srdjanm.com"
+            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            aria-label="Email">
+
+							<Mail size={20} />
+						</a>
+					</div>
+				</div>
+			</AnimatedSection>
+
 			{/* Footer */}
 			<footer data-ev-id="ev_320e8e66fc" className="py-12 px-6 border-t border-gold/20">
 				<div data-ev-id="ev_41625f92ba" className="max-w-4xl mx-auto text-center">
@@ -546,6 +607,92 @@ function TimelineItem({ job, index }: {job: typeof workExperience[0];index: numb
 				</div>
 			</div>
 		</motion.div>);
+
+}
+
+// Contact form component
+function ContactForm() {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    setStatus('sending');
+
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+    window.location.href = `mailto:hello@srdjanm.com?subject=${subject}&body=${body}`;
+
+    setStatus('sent');
+    setTimeout(() => {
+      setFormData({ name: '', email: '', message: '' });
+      setStatus('idle');
+    }, 3000);
+  };
+
+  return (
+    <form data-ev-id="ev_d7b41a8577" onSubmit={handleSubmit} className="flex flex-col gap-6">
+      <div data-ev-id="ev_a4cf01210e" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div data-ev-id="ev_3577b2ddc3" className="flex flex-col gap-2">
+          <label data-ev-id="ev_8df1c6781d" htmlFor="name" className="font-display text-sm text-gold uppercase tracking-wider">
+            Your Name
+          </label>
+          <input data-ev-id="ev_6dd76af546"
+          type="text"
+          id="name"
+          required
+          value={formData.name}
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all"
+          placeholder="John Doe" />
+
+        </div>
+        <div data-ev-id="ev_87aec46900" className="flex flex-col gap-2">
+          <label data-ev-id="ev_1af1bba6c4" htmlFor="email" className="font-display text-sm text-gold uppercase tracking-wider">
+            Your Email
+          </label>
+          <input data-ev-id="ev_f0233819dc"
+          type="email"
+          id="email"
+          required
+          value={formData.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all"
+          placeholder="john@example.com" />
+
+        </div>
+      </div>
+      <div data-ev-id="ev_89bfc60c24" className="flex flex-col gap-2">
+        <label data-ev-id="ev_0310eec101" htmlFor="message" className="font-display text-sm text-gold uppercase tracking-wider">
+          Your Message
+        </label>
+        <textarea data-ev-id="ev_c634bdf3f8"
+        id="message"
+        required
+        rows={5}
+        value={formData.message}
+        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+        className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all resize-none"
+        placeholder="Tell me about your project..." />
+
+      </div>
+      <div data-ev-id="ev_fc9e186550" className="text-center">
+        <motion.button
+          type="submit"
+          disabled={status === 'sending'}
+          className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-crimson to-crimson-dark border border-gold/30 rounded-lg font-display text-gold uppercase tracking-wider hover:border-gold/60 hover:shadow-lg hover:shadow-crimson/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed glow-gold-hover"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}>
+
+          <Mail size={18} />
+          {status === 'idle' && 'Send Message'}
+          {status === 'sending' && 'Opening Email...'}
+          {status === 'sent' && 'Email Client Opened!'}
+          {status === 'error' && 'Try Again'}
+        </motion.button>
+      </div>
+    </form>);
 
 }
 
