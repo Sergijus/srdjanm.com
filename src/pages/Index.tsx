@@ -441,7 +441,6 @@ export default function Index() {
 									<span data-ev-id="ev_0122df30b7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">WooCommerce & payment integration</span>
 									<span data-ev-id="ev_475645629c" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Front-end development</span>
 									<span data-ev-id="ev_030c687507" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">HTML / CSS / JS / TS / React</span>
-									<span data-ev-id="ev_e38849f606" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Backend & database integration (Supabase)</span>
 									<span data-ev-id="ev_cf6751e041" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">JIRA / Confluence</span>
 									<span data-ev-id="ev_1f7b35c67d" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">AI-powered app building — advanced</span>
 								</div>
