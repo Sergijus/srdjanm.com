@@ -243,7 +243,7 @@ export default function Index() {
 								<div data-ev-id="ev_dfccbc106b"
                 className="absolute inset-0 blur-2xl opacity-50"
                 style={{
-                  background: 'radial-gradient(ellipse, #D4AF37 0%, #8B0000 40%, transparent 70%)'
+                  background: 'radial-gradient(ellipse, #e0b563 0%, #8B0000 40%, transparent 70%)'
                 }} />
 
 								{/* Shield image */}
@@ -262,9 +262,9 @@ export default function Index() {
               className="flex items-center justify-center gap-4">
 
 
-							<div data-ev-id="ev_c5f71a5b0e" className="h-px w-16 bg-gradient-to-r from-transparent to-gold" />
-							<div data-ev-id="ev_25f1cecd23" className="w-2 h-2 rotate-45 bg-gold" />
-							<div data-ev-id="ev_2ce5c3be47" className="h-px w-16 bg-gradient-to-l from-transparent to-gold" />
+							<div data-ev-id="ev_c5f71a5b0e" className="h-px w-16 bg-gradient-to-r from-transparent to-gold-dark" />
+							<div data-ev-id="ev_25f1cecd23" className="w-2 h-2 rotate-45 bg-gold-dark" />
+							<div data-ev-id="ev_2ce5c3be47" className="h-px w-16 bg-gradient-to-l from-transparent to-gold-dark" />
 						</motion.div>
 
 						{/* Name */}
@@ -272,7 +272,7 @@ export default function Index() {
               variants={fadeInUp}
               transition={{ duration: 0.8, delay: 0.2 }}
               className="font-display text-5xl md:text-7xl lg:text-8xl text-gold tracking-wide"
-              style={{ textShadow: '0 0 40px rgba(212, 175, 55, 0.3)' }}>
+              style={{ textShadow: '0 0 40px rgba(224, 181, 99, 0.3)' }}>
 
 
 							Srdjan Marinkovic
@@ -308,7 +308,7 @@ export default function Index() {
               href="https://www.facebook.com/Sergijus/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold/30 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/50 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
               aria-label="Facebook">
 
 								<Facebook size={20} />
@@ -317,7 +317,7 @@ export default function Index() {
               href="https://www.instagram.com/sergijus022/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold/30 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/50 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
               aria-label="Instagram">
 
 								<Instagram size={20} />
@@ -326,14 +326,14 @@ export default function Index() {
               href="https://www.linkedin.com/in/srdjan-marinkovic/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold/30 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/50 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
               aria-label="LinkedIn">
 
 								<Linkedin size={20} />
 							</a>
 							<a data-ev-id="ev_d92eca199b"
               href="mailto:web.srdjan.marinkovic@gmail.com"
-              className="p-3 border border-gold/30 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/50 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
               aria-label="Email">
 
 								<Mail size={20} />
@@ -366,28 +366,28 @@ export default function Index() {
 					<div data-ev-id="ev_6a3f0e2366" className="relative">
 						{/* Section header */}
 						<div data-ev-id="ev_2e1ba2e181" className="flex items-center gap-4 mb-8">
-							<div data-ev-id="ev_8a4d549857" className="h-px flex-1 bg-gradient-to-r from-gold/50 to-transparent" />
+							<div data-ev-id="ev_8a4d549857" className="h-px flex-1 bg-gradient-to-r from-gold-dark to-transparent" />
 							<h2 data-ev-id="ev_d920b9d6a8" className="font-display text-2xl md:text-3xl text-gold uppercase tracking-[0.15em]">
 								About Me
 							</h2>
-							<div data-ev-id="ev_d89b59a8a4" className="h-px flex-1 bg-gradient-to-l from-gold/50 to-transparent" />
+							<div data-ev-id="ev_d89b59a8a4" className="h-px flex-1 bg-gradient-to-l from-gold-dark to-transparent" />
 						</div>
 
 						{/* Parchment card */}
-						<div data-ev-id="ev_02f2d296e9" className="relative bg-ink-light/50 border border-gold/20 rounded-lg p-8 md:p-12 parchment-texture">
+						<div data-ev-id="ev_02f2d296e9" className="relative bg-ink-light border border-border-card rounded-lg p-8 md:p-12 parchment-texture">
 							{/* Corner decorations */}
-							<div data-ev-id="ev_d8d73d3f14" className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-gold/40 rounded-tl-lg" />
-							<div data-ev-id="ev_c64735ea3c" className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-gold/40 rounded-tr-lg" />
-							<div data-ev-id="ev_44c4b88b91" className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-gold/40 rounded-bl-lg" />
-							<div data-ev-id="ev_c9b8e30110" className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-gold/40 rounded-br-lg" />
+							<div data-ev-id="ev_d8d73d3f14" className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-gold-dark/60 rounded-tl-lg" />
+							<div data-ev-id="ev_c64735ea3c" className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-gold-dark/60 rounded-tr-lg" />
+							<div data-ev-id="ev_44c4b88b91" className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-gold-dark/60 rounded-bl-lg" />
+							<div data-ev-id="ev_c9b8e30110" className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-gold-dark/60 rounded-br-lg" />
 
-							<p data-ev-id="ev_241c42dfab" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment/90">
+							<p data-ev-id="ev_241c42dfab" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment">
 								Born in 1990 in Serbia, I initially pursued a career in criminal law after graduating from law school. However, in 2017, I decided to follow my passion for web development.
 							</p>
-							<p data-ev-id="ev_87bd2aaeaf" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment/90 mt-6">
+							<p data-ev-id="ev_87bd2aaeaf" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment mt-6">
 								Since then, I've been dedicated to creating stunning websites, primarily using WordPress. Ever since AI came into the picture, I've expanded into automation, internal app development, workflows, and process optimization.
 							</p>
-							<p data-ev-id="ev_5aaeb3a8f1" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment/90 mt-6">Currently, I hold the position of ATS Team Lead and Serbia Site Manager at Elementor, where I lead two teams: a CX team of ~15 experts and developers, and the Serbian team of ~35 people - overseeing operations, HR coordination, event organization, and company culture.
+							<p data-ev-id="ev_5aaeb3a8f1" className="relative z-10 text-lg md:text-xl leading-relaxed text-parchment mt-6">Currently, I hold the position of ATS Team Lead and Serbia Site Manager at Elementor, where I lead two teams: a CX team of ~15 experts and developers, and the Serbian team of ~35 people - overseeing operations, HR coordination, event organization, and company culture.
 
               </p>
 						</div>
@@ -400,17 +400,17 @@ export default function Index() {
 				<div data-ev-id="ev_568de6c3e1" className="max-w-5xl mx-auto">
 					{/* Section header */}
 					<div data-ev-id="ev_293b664b79" className="flex items-center gap-4 mb-16">
-						<Briefcase className="text-gold" size={28} />
+						<Briefcase className="text-gold-dark" size={28} />
 						<h2 data-ev-id="ev_3a447d4c5b" className="font-display text-2xl md:text-3xl text-gold uppercase tracking-[0.15em]">
 							Work History
 						</h2>
-						<div data-ev-id="ev_e7b38b3166" className="h-px flex-1 bg-gradient-to-r from-gold/50 to-transparent" />
+						<div data-ev-id="ev_e7b38b3166" className="h-px flex-1 bg-gradient-to-r from-gold-dark to-transparent" />
 					</div>
 
 					{/* Timeline */}
 					<div data-ev-id="ev_b32fb12f20" className="relative">
 						{/* Vertical line */}
-						<div data-ev-id="ev_c4b4f6dc68" className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-gold via-crimson to-gold/20 transform md:-translate-x-1/2" />
+						<div data-ev-id="ev_c4b4f6dc68" className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-gold-dark via-crimson to-gold-dark/30 transform md:-translate-x-1/2" />
 
 						{workExperience.map((job, index) =>
             <TimelineItem key={job.id} job={job} index={index} />
@@ -424,29 +424,29 @@ export default function Index() {
 				<div data-ev-id="ev_224dc73201" className="max-w-4xl mx-auto">
 					{/* Section header */}
 					<div data-ev-id="ev_8e4a136753" className="flex items-center gap-4 mb-12">
-						<GraduationCap className="text-gold" size={28} />
+						<GraduationCap className="text-gold-dark" size={28} />
 						<h2 data-ev-id="ev_1bc446cba2" className="font-display text-2xl md:text-3xl text-gold uppercase tracking-[0.15em]">
 							Education
 						</h2>
-						<div data-ev-id="ev_6b81ed1656" className="h-px flex-1 bg-gradient-to-r from-gold/50 to-transparent" />
+						<div data-ev-id="ev_6b81ed1656" className="h-px flex-1 bg-gradient-to-r from-gold-dark to-transparent" />
 					</div>
 
 					<div data-ev-id="ev_e9e42df2f6" className="flex flex-col gap-6">
 						{education.map((edu) =>
             <div data-ev-id="ev_7d4a7f6083"
             key={edu.id}
-            className="bg-ink-light/30 border border-gold/20 rounded-lg p-6 md:p-8 hover:border-gold/40 transition-colors">
+            className="bg-ink-light border border-border-card rounded-lg p-6 md:p-8 hover:border-gold-dark/60 transition-colors">
 
 								<div data-ev-id="ev_23bbf3065c" className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
 									<div data-ev-id="ev_c3775d0592">
 										<h3 data-ev-id="ev_5925df9de7" className="font-display text-xl text-gold">{edu.degree}</h3>
-										<p data-ev-id="ev_d338e9bd57" className="text-parchment/70 font-body">{edu.school}</p>
+										<p data-ev-id="ev_d338e9bd57" className="text-parchment/80 font-body">{edu.school}</p>
 									</div>
 									<span data-ev-id="ev_57c13f224d" className="text-crimson-light font-display text-sm uppercase tracking-wider">
 										{edu.year}
 									</span>
 								</div>
-								<p data-ev-id="ev_ddecd5fa5c" className="text-parchment/80 leading-relaxed">{edu.description}</p>
+								<p data-ev-id="ev_ddecd5fa5c" className="text-parchment leading-relaxed">{edu.description}</p>
 							</div>
             )}
 					</div>
@@ -461,7 +461,7 @@ export default function Index() {
 						<h2 data-ev-id="ev_fb2fe84c9a" className="font-display text-3xl md:text-4xl text-gold uppercase tracking-[0.15em] mb-4">
 							Explore My Work
 						</h2>
-						<p data-ev-id="ev_6a4b7ed282" className="text-parchment/70 max-w-2xl mx-auto">Take a look at some of the recent projects I've worked on, showcasing my expertise in web design and development. Each project is a testament to my commitment to creating functional and visually appealing websites.
+						<p data-ev-id="ev_6a4b7ed282" className="text-parchment max-w-2xl mx-auto">Take a look at some of the recent projects I've worked on, showcasing my expertise in web design and development. Each project is a testament to my commitment to creating functional and visually appealing websites.
 
             </p>
 					</div>
@@ -485,14 +485,14 @@ export default function Index() {
 					{/* Section header */}
 					<div data-ev-id="ev_7272b39fe1" className="text-center mb-12">
 						<div data-ev-id="ev_6f55cdd7f3" className="flex items-center justify-center gap-4 mb-6">
-							<div data-ev-id="ev_0be5d06f55" className="h-px w-16 bg-gradient-to-r from-transparent to-gold/50" />
-							<Mail className="text-gold" size={28} />
-							<div data-ev-id="ev_fccb37a9d7" className="h-px w-16 bg-gradient-to-l from-transparent to-gold/50" />
+							<div data-ev-id="ev_0be5d06f55" className="h-px w-16 bg-gradient-to-r from-transparent to-gold-dark" />
+							<Mail className="text-gold-dark" size={28} />
+							<div data-ev-id="ev_fccb37a9d7" className="h-px w-16 bg-gradient-to-l from-transparent to-gold-dark" />
 						</div>
 						<h2 data-ev-id="ev_c72bb9c06b" className="font-display text-3xl md:text-4xl text-gold uppercase tracking-[0.15em] mb-4">
 							Let's Work Together
 						</h2>
-						<p data-ev-id="ev_d6e0acaa2e" className="text-parchment/70 max-w-xl mx-auto">
+						<p data-ev-id="ev_d6e0acaa2e" className="text-parchment max-w-xl mx-auto">
 							Have a project in mind or just want to say hello? I'd love to hear from you. Let's create something extraordinary together.
 						</p>
 					</div>
@@ -506,7 +506,7 @@ export default function Index() {
             href="https://www.facebook.com/webmastermarinkovic"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
             aria-label="Facebook">
 
 							<Facebook size={20} />
@@ -515,7 +515,7 @@ export default function Index() {
             href="https://www.instagram.com/srdjanm.rs"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
             aria-label="Instagram">
 
 							<Instagram size={20} />
@@ -524,14 +524,14 @@ export default function Index() {
             href="https://www.linkedin.com/in/srdjanmarinkovic/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
             aria-label="LinkedIn">
 
 							<Linkedin size={20} />
 						</a>
 						<a data-ev-id="ev_28022b9e43"
             href="mailto:hello@srdjanm.com"
-            className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold/70 hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
             aria-label="Email">
 
 							<Mail size={20} />
@@ -541,15 +541,15 @@ export default function Index() {
 			</AnimatedSection>
 
 			{/* Footer */}
-			<footer data-ev-id="ev_320e8e66fc" className="py-12 px-6 border-t border-gold/20">
+			<footer data-ev-id="ev_320e8e66fc" className="py-12 px-6 border-t border-border-card">
 				<div data-ev-id="ev_41625f92ba" className="max-w-4xl mx-auto text-center">
 					<div data-ev-id="ev_fb49bbf066" className="flex items-center justify-center gap-4 mb-6">
-						<div data-ev-id="ev_0304e97401" className="h-px w-16 bg-gradient-to-r from-transparent to-gold/50" />
-						<div data-ev-id="ev_657b3e09a7" className="w-2 h-2 rotate-45 bg-gold/50" />
-						<div data-ev-id="ev_dd3ad22c27" className="h-px w-16 bg-gradient-to-l from-transparent to-gold/50" />
+						<div data-ev-id="ev_0304e97401" className="h-px w-16 bg-gradient-to-r from-transparent to-gold-dark" />
+						<div data-ev-id="ev_657b3e09a7" className="w-2 h-2 rotate-45 bg-gold-dark" />
+						<div data-ev-id="ev_dd3ad22c27" className="h-px w-16 bg-gradient-to-l from-transparent to-gold-dark" />
 					</div>
 					<p data-ev-id="ev_451224b5fd" className="font-display text-lg text-gold mb-2">Srdjan Marinkovic</p>
-					<p data-ev-id="ev_9555ab70e3" className="text-parchment/50 text-sm">
+					<p data-ev-id="ev_9555ab70e3" className="text-parchment/60 text-sm">
 						© {new Date().getFullYear()} · Built with passion and a bit of magic
 					</p>
 				</div>
@@ -579,11 +579,11 @@ function TimelineItem({ job, index }: {job: typeof workExperience[0];index: numb
       transition={{ duration: 0.6, delay: index * 0.1 }}>
 
 			{/* Timeline dot */}
-			<div data-ev-id="ev_9559c2f394" className="absolute left-0 md:left-1/2 w-4 h-4 bg-crimson border-2 border-gold rounded-full transform -translate-x-1/2 md:-translate-x-1/2 mt-2 z-10 glow-gold" />
+			<div data-ev-id="ev_9559c2f394" className="absolute left-0 md:left-1/2 w-4 h-4 bg-crimson border-2 border-gold-dark rounded-full transform -translate-x-1/2 md:-translate-x-1/2 mt-2 z-10 glow-gold" />
 
 			{/* Content */}
 			<div data-ev-id="ev_394957e4a6" className={`ml-8 md:ml-0 md:w-1/2 ${isEven ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}>
-				<div data-ev-id="ev_b7cbadb375" className="bg-ink-light/30 border border-gold/20 rounded-lg p-6 hover:border-gold/40 transition-all">
+				<div data-ev-id="ev_b7cbadb375" className="bg-ink-light border border-border-card rounded-lg p-6 hover:border-gold-dark/60 transition-all">
 					{/* Current badge */}
 					{job.isCurrent &&
           <span data-ev-id="ev_04079eec1b" className="inline-block px-3 py-1 bg-crimson/20 text-crimson-light text-xs font-display uppercase tracking-wider rounded-full mb-3 border border-crimson/30">
@@ -601,7 +601,7 @@ function TimelineItem({ job, index }: {job: typeof workExperience[0];index: numb
 						{job.period}
 						{job.location && <span data-ev-id="ev_0ff7a06730" className="text-parchment/50"> · {job.location}</span>}
 					</p>
-					<p data-ev-id="ev_1063059a81" className="text-parchment/70 text-sm leading-relaxed">
+					<p data-ev-id="ev_1063059a81" className="text-parchment text-sm leading-relaxed">
 						{job.description}
 					</p>
 				</div>
@@ -644,7 +644,7 @@ function ContactForm() {
           required
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-          className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all"
+          className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all"
           placeholder="John Doe" />
 
         </div>
@@ -658,7 +658,7 @@ function ContactForm() {
           required
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-          className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all"
+          className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all"
           placeholder="john@example.com" />
 
         </div>
@@ -673,7 +673,7 @@ function ContactForm() {
         rows={5}
         value={formData.message}
         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-        className="bg-ink-light/50 border border-gold/20 rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/30 focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-all resize-none"
+        className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all resize-none"
         placeholder="Tell me about your project..." />
 
       </div>
@@ -681,7 +681,7 @@ function ContactForm() {
         <motion.button
           type="submit"
           disabled={status === 'sending'}
-          className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-crimson to-crimson-dark border border-gold/30 rounded-lg font-display text-gold uppercase tracking-wider hover:border-gold/60 hover:shadow-lg hover:shadow-crimson/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed glow-gold-hover"
+          className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-crimson to-crimson-dark border border-gold-dark rounded-lg font-display text-gold uppercase tracking-wider hover:border-gold hover:shadow-lg hover:shadow-crimson/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed glow-gold-hover"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}>
 
@@ -701,12 +701,12 @@ function ProjectCard({ project, onClick }: {project: Project;onClick: () => void
   return (
     <motion.button
       onClick={onClick}
-      className="group text-left bg-ink-light/30 border border-gold/20 rounded-lg overflow-hidden hover:border-gold/50 transition-all cursor-pointer"
+      className="group text-left bg-ink-light border border-border-card rounded-lg overflow-hidden hover:border-gold-dark transition-all cursor-pointer"
       whileHover={{ y: -4, scale: 1.02 }}
       whileTap={{ scale: 0.98 }}>
 
 			{/* Thumbnail area */}
-			<div data-ev-id="ev_4f9aee76b8" className="h-48 bg-ink flex items-center justify-center border-b border-gold/10 overflow-hidden">
+			<div data-ev-id="ev_4f9aee76b8" className="h-48 bg-ink flex items-center justify-center border-b border-border-card overflow-hidden">
 				{project.screenshotUrl ?
         <img data-ev-id="ev_d23cd6e8bd"
         src={project.screenshotUrl}
@@ -715,10 +715,10 @@ function ProjectCard({ project, onClick }: {project: Project;onClick: () => void
 
 
         <div data-ev-id="ev_173d2e1bd8" className="text-center">
-						<div data-ev-id="ev_d591c1fc6c" className="w-16 h-16 mx-auto mb-3 rounded-full bg-gold/10 flex items-center justify-center">
-							<ExternalLink className="text-gold/50" size={24} />
+						<div data-ev-id="ev_d591c1fc6c" className="w-16 h-16 mx-auto mb-3 rounded-full bg-gold-dark/20 flex items-center justify-center">
+							<ExternalLink className="text-gold-dark" size={24} />
 						</div>
-						<span data-ev-id="ev_8a57bd526a" className="text-parchment/30 text-sm">Click to view</span>
+						<span data-ev-id="ev_8a57bd526a" className="text-parchment/50 text-sm">Click to view</span>
 					</div>
         }
 			</div>
@@ -728,7 +728,7 @@ function ProjectCard({ project, onClick }: {project: Project;onClick: () => void
 				<h3 data-ev-id="ev_e9d63fae72" className="font-display text-lg text-gold mb-2 group-hover:text-gold-light transition-colors">
 					{project.title}
 				</h3>
-				<p data-ev-id="ev_5cd2c046dc" className="text-parchment/60 text-sm line-clamp-2">
+				<p data-ev-id="ev_5cd2c046dc" className="text-parchment/80 text-sm line-clamp-2">
 					{project.description}
 				</p>
 			</div>

@@ -38,14 +38,14 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
 					{/* Modal */}
 					<motion.div
-          className="relative w-full max-w-4xl max-h-[90vh] bg-ink rounded-lg overflow-hidden border border-gold/30 shadow-2xl"
+          className="relative w-full max-w-4xl max-h-[90vh] bg-ink rounded-lg overflow-hidden border border-border-card shadow-2xl"
           initial={{ scale: 0.9, opacity: 0, y: 20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.9, opacity: 0, y: 20 }}
           transition={{ duration: 0.3, ease: 'easeOut' }}>
 
 						{/* Header */}
-						<div data-ev-id="ev_9d5bd215b5" className="sticky top-0 z-10 flex items-center justify-between p-6 bg-ink border-b border-gold/20">
+						<div data-ev-id="ev_9d5bd215b5" className="sticky top-0 z-10 flex items-center justify-between p-6 bg-ink border-b border-border-card">
 							<h2 data-ev-id="ev_6a76a4f0c4" className="font-display text-2xl md:text-3xl text-gold">
 								{project.title}
 							</h2>
@@ -66,12 +66,12 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 									<img data-ev-id="ev_7c2c30ce01"
               src={project.screenshotUrl}
               alt={`${project.title} screenshot`}
-              className="w-full h-auto rounded border border-gold/10" />
+              className="w-full h-auto rounded border border-border-card" />
 
 								</div> :
 
             <div data-ev-id="ev_7fe9f82dee" className="p-4 bg-ink-light">
-									<div data-ev-id="ev_5eb91c89a5" className="w-full h-64 rounded border border-gold/10 bg-ink flex items-center justify-center">
+									<div data-ev-id="ev_5eb91c89a5" className="w-full h-64 rounded border border-border-card bg-ink flex items-center justify-center">
 										<span data-ev-id="ev_cd66045960" className="text-parchment/40 font-body italic">
 											Screenshot coming soon...
 										</span>
@@ -81,7 +81,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
 							{/* Description */}
 							<div data-ev-id="ev_d203ebf63b" className="p-6">
-								<p data-ev-id="ev_e656e2f2c2" className="text-parchment/90 font-body text-lg leading-relaxed mb-6">
+								<p data-ev-id="ev_e656e2f2c2" className="text-parchment font-body text-lg leading-relaxed mb-6">
 									{project.description}
 								</p>
 
@@ -90,7 +90,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
               href={project.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-crimson text-parchment font-display text-sm uppercase tracking-wider rounded border border-gold/30 hover:bg-crimson-light hover:border-gold/50 transition-all glow-gold-hover cursor-pointer">
+              className="inline-flex items-center gap-2 px-6 py-3 bg-crimson text-parchment font-display text-sm uppercase tracking-wider rounded border border-gold-dark hover:bg-crimson-light hover:border-gold transition-all glow-gold-hover cursor-pointer">
 
 										<ExternalLink size={16} />
 										Visit Website

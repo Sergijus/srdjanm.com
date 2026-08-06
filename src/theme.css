@@ -8,16 +8,23 @@
 	--color-crimson-light: #A52A2A;
 	--color-crimson-dark: #5C0000;
 	
-	--color-gold: #D4AF37;
-	--color-gold-light: #F4D03F;
-	--color-gold-dark: #B8860B;
+	/* Primary gold - headings, names, CTAs */
+	--color-gold: #e0b563;
+	--color-gold-light: #f0c878;
+	/* Secondary bronze - dividers, borders, timestamps */
+	--color-gold-dark: #8a7248;
 	
-	--color-parchment: #F4E4C1;
-	--color-parchment-dark: #E8D5A3;
+	/* Body text - cooler light gray */
+	--color-parchment: #c4c4c8;
+	--color-parchment-dark: #a8a8ac;
 	
-	--color-ink: #1A1A1D;
-	--color-ink-light: #2D2D30;
-	--color-ink-dark: #0D0D0F;
+	/* Backgrounds - warm-toned near-black */
+	--color-ink: #12100d;
+	--color-ink-light: #161614;
+	--color-ink-dark: #0e0d0b;
+	
+	/* Card border - warm bronze */
+	--color-border-card: #3a2f22;
 	
 	/* Semantic mappings */
 	--color-primary: var(--color-crimson);
@@ -57,16 +64,15 @@
 }
 
 ::-webkit-scrollbar-track {
-	background: #1A1A1D;
-}
+	background: #12100d;}
 
 ::-webkit-scrollbar-thumb {
-	background: linear-gradient(180deg, #D4AF37, #8B0000);
+	background: linear-gradient(180deg, #8a7248, #8B0000);
 	border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: linear-gradient(180deg, #F4D03F, #A52A2A);
+	background: linear-gradient(180deg, #e0b563, #A52A2A);
 }
 
 /* Parchment texture overlay class */
@@ -86,11 +92,11 @@
 
 /* Glow effect for interactive elements */
 .glow-gold {
-	box-shadow: 0 0 20px #D4AF3740, 0 0 40px #D4AF3720;
+	box-shadow: 0 0 20px #e0b56340, 0 0 40px #e0b56320;
 }
 
 .glow-gold-hover:hover {
-	box-shadow: 0 0 30px #D4AF3760, 0 0 60px #D4AF3730;
+	box-shadow: 0 0 30px #e0b56360, 0 0 60px #e0b56330;
 }
 
 /* Vignette effect */
@@ -102,6 +108,5 @@
 	content: '';
 	position: absolute;
 	inset: 0;
-	background: radial-gradient(ellipse at center, transparent 40%, #0D0D0F 100%);
-	pointer-events: none;
-}
+	background: radial-gradient(ellipse at center, transparent 40%, #0e0d0b 100%);
+	pointer-events: none;}
