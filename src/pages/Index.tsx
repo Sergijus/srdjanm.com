@@ -1,4 +1,4 @@
-import { useState, useRef, FormEvent } from 'react';
+import { useState, useRef } from 'react';
 import { motion, useInView } from 'motion/react';
 import { ChevronDown, Briefcase, GraduationCap, ExternalLink, Linkedin, Mail, Facebook, Instagram } from 'lucide-react';
 import { EmberParticles } from '@/components/EmberParticles';
@@ -480,65 +480,59 @@ export default function Index() {
 			</AnimatedSection>
 
 			{/* Contact Section */}
-			<AnimatedSection className="py-24 px-6">
-				<div data-ev-id="ev_e403cee249" className="max-w-3xl mx-auto">
-					{/* Section header */}
-					<div data-ev-id="ev_7272b39fe1" className="text-center mb-12">
-						<div data-ev-id="ev_6f55cdd7f3" className="flex items-center justify-center gap-4 mb-6">
-							<div data-ev-id="ev_0be5d06f55" className="h-px w-16 bg-gradient-to-r from-transparent to-gold-dark" />
-							<Mail className="text-gold-dark" size={28} />
-							<div data-ev-id="ev_fccb37a9d7" className="h-px w-16 bg-gradient-to-l from-transparent to-gold-dark" />
-						</div>
-						<h2 data-ev-id="ev_c72bb9c06b" className="font-display text-3xl md:text-4xl text-gold uppercase tracking-[0.15em] mb-4">
-							Let's Work Together
-						</h2>
-						<p data-ev-id="ev_d6e0acaa2e" className="text-parchment max-w-xl mx-auto">
-							Have a project in mind or just want to say hello? I'd love to hear from you. Let's create something extraordinary together.
-						</p>
-					</div>
+			<section data-ev-id="ev_a1429e9b58" className="py-24 px-6">
+				<div data-ev-id="ev_e403cee249" className="max-w-2xl mx-auto bg-ink-light border border-border-card rounded-lg p-8 md:p-12 text-center">
+					<h2 data-ev-id="ev_47fe8a6a77" className="font-display text-3xl md:text-4xl text-gold uppercase tracking-[0.15em] mb-4">
+						Let's Work Together
+					</h2>
+					<p data-ev-id="ev_83e360863d" className="text-parchment mb-8">
+						Have a project in mind or just want to say hello? I'd love to hear from you.
+					</p>
+					<a data-ev-id="ev_dac3c00de1"
+          href="mailto:web.srdjan.marinkovic@gmail.com"
+          className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-crimson to-crimson-dark border border-gold-dark rounded-lg font-display text-gold uppercase tracking-wider hover:border-gold transition-all glow-gold-hover mb-8">
 
-					{/* Contact Form */}
-					<ContactForm />
-
-					{/* Social Icons */}
-					<div data-ev-id="ev_3a33eb1b52" className="flex items-center justify-center gap-6 mt-12">
-						<a data-ev-id="ev_098cdc2aa5"
-            href="https://www.facebook.com/webmastermarinkovic"
+						<Mail size={18} />
+						Email Me
+					</a>
+					<div data-ev-id="ev_ba25344a23" className="flex items-center justify-center gap-4">
+						<a data-ev-id="ev_4485598c86"
+            href="https://www.facebook.com/Sergijus/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover"
             aria-label="Facebook">
 
 							<Facebook size={20} />
 						</a>
-						<a data-ev-id="ev_ada4e749fd"
-            href="https://www.instagram.com/srdjanm.rs"
+						<a data-ev-id="ev_6cfa18e2bf"
+            href="https://www.instagram.com/sergijus022/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover"
             aria-label="Instagram">
 
 							<Instagram size={20} />
 						</a>
-						<a data-ev-id="ev_acfe7eae25"
-            href="https://www.linkedin.com/in/srdjanmarinkovic/"
+						<a data-ev-id="ev_6bb192a3f3"
+            href="https://www.linkedin.com/in/srdjan-marinkovic/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+            className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover"
             aria-label="LinkedIn">
 
 							<Linkedin size={20} />
 						</a>
-						<a data-ev-id="ev_28022b9e43"
-            href="mailto:hello@srdjanm.com"
-            className="w-12 h-12 rounded-full border border-gold-dark/50 flex items-center justify-center text-gold-dark hover:text-gold hover:border-gold hover:bg-gold/10 transition-all glow-gold-hover"
+						<a data-ev-id="ev_acbe2d00d6"
+            href="mailto:web.srdjan.marinkovic@gmail.com"
+            className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover"
             aria-label="Email">
 
 							<Mail size={20} />
 						</a>
 					</div>
 				</div>
-			</AnimatedSection>
+			</section>
 
 			{/* Footer */}
 			<footer data-ev-id="ev_320e8e66fc" className="py-12 px-6 border-t border-border-card">
@@ -607,92 +601,6 @@ function TimelineItem({ job, index }: {job: typeof workExperience[0];index: numb
 				</div>
 			</div>
 		</motion.div>);
-
-}
-
-// Contact form component
-function ContactForm() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setStatus('sending');
-
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
-    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    window.location.href = `mailto:hello@srdjanm.com?subject=${subject}&body=${body}`;
-
-    setStatus('sent');
-    setTimeout(() => {
-      setFormData({ name: '', email: '', message: '' });
-      setStatus('idle');
-    }, 3000);
-  };
-
-  return (
-    <form data-ev-id="ev_d7b41a8577" onSubmit={handleSubmit} className="flex flex-col gap-6">
-      <div data-ev-id="ev_a4cf01210e" className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div data-ev-id="ev_3577b2ddc3" className="flex flex-col gap-2">
-          <label data-ev-id="ev_8df1c6781d" htmlFor="name" className="font-display text-sm text-gold uppercase tracking-wider">
-            Your Name
-          </label>
-          <input data-ev-id="ev_6dd76af546"
-          type="text"
-          id="name"
-          required
-          value={formData.name}
-          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-          className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all"
-          placeholder="John Doe" />
-
-        </div>
-        <div data-ev-id="ev_87aec46900" className="flex flex-col gap-2">
-          <label data-ev-id="ev_1af1bba6c4" htmlFor="email" className="font-display text-sm text-gold uppercase tracking-wider">
-            Your Email
-          </label>
-          <input data-ev-id="ev_f0233819dc"
-          type="email"
-          id="email"
-          required
-          value={formData.email}
-          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-          className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all"
-          placeholder="john@example.com" />
-
-        </div>
-      </div>
-      <div data-ev-id="ev_89bfc60c24" className="flex flex-col gap-2">
-        <label data-ev-id="ev_0310eec101" htmlFor="message" className="font-display text-sm text-gold uppercase tracking-wider">
-          Your Message
-        </label>
-        <textarea data-ev-id="ev_c634bdf3f8"
-        id="message"
-        required
-        rows={5}
-        value={formData.message}
-        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-        className="bg-ink-light border border-border-card rounded-lg px-4 py-3 text-parchment placeholder:text-parchment/40 focus:outline-none focus:border-gold-dark focus:ring-1 focus:ring-gold-dark/30 transition-all resize-none"
-        placeholder="Tell me about your project..." />
-
-      </div>
-      <div data-ev-id="ev_fc9e186550" className="text-center">
-        <motion.button
-          type="submit"
-          disabled={status === 'sending'}
-          className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-crimson to-crimson-dark border border-gold-dark rounded-lg font-display text-gold uppercase tracking-wider hover:border-gold hover:shadow-lg hover:shadow-crimson/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed glow-gold-hover"
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}>
-
-          <Mail size={18} />
-          {status === 'idle' && 'Send Message'}
-          {status === 'sending' && 'Opening Email...'}
-          {status === 'sent' && 'Email Client Opened!'}
-          {status === 'error' && 'Try Again'}
-        </motion.button>
-      </div>
-    </form>);
 
 }
 
