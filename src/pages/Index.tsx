@@ -409,45 +409,57 @@ export default function Index() {
 
 					{/* Skills card */}
 					<div data-ev-id="ev_46ea495d36" className="bg-ink-light border border-border-card rounded-lg p-8 md:p-10">
-						<div data-ev-id="ev_a94f5caea1" className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<div data-ev-id="ev_a94f5caea1" className="flex flex-col gap-6">
 							{/* Leadership & Management */}
-							<div data-ev-id="ev_7781456d31">
-								<h3 data-ev-id="ev_42b7db6488" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+							<div data-ev-id="ev_7781456d31" className="flex flex-col md:flex-row md:items-start gap-4">
+								<h3 data-ev-id="ev_42b7db6488" className="font-display text-lg text-gold uppercase tracking-wider md:w-56 md:shrink-0">
 									Leadership & Management
 								</h3>
 								<div data-ev-id="ev_bbf12af1f0" className="flex flex-wrap gap-2">
 									<span data-ev-id="ev_c5ec47494f" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Technical team management</span>
-									<span data-ev-id="ev_990257b050" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Reports & planning</span>
-									<span data-ev-id="ev_ea90342ff0" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">KPIs & team improvement</span>
-									<span data-ev-id="ev_3612de49da" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Motivation & processes</span>
-									<span data-ev-id="ev_15a9ee35e7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">SMART / Agile</span>
+									<span data-ev-id="ev_990257b050" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">CX strategy & process improvement</span>
+									<span data-ev-id="ev_ea90342ff0" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">HR coordination & operations</span>
+									<span data-ev-id="ev_3612de49da" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Cross-team / M&A integration</span>
+									<span data-ev-id="ev_15a9ee35e7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">KPIs & team improvement</span>
+									<span data-ev-id="ev_f910c86db3" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Motivation & processes</span>
+									<span data-ev-id="ev_e9eafb32d4" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">SMART / Agile</span>
+									<span data-ev-id="ev_80fd220b0b" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Reports & planning</span>
 								</div>
 							</div>
+
+							{/* Divider */}
+							<div data-ev-id="ev_00ad1e49d8" className="h-px w-full bg-gold-dark/40" />
 
 							{/* Technical */}
-							<div data-ev-id="ev_6ee29e0ba7">
-								<h3 data-ev-id="ev_73ac054781" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+							<div data-ev-id="ev_5118d0d231" className="flex flex-col md:flex-row md:items-start gap-4">
+								<h3 data-ev-id="ev_4ebe25be91" className="font-display text-lg text-gold uppercase tracking-wider md:w-56 md:shrink-0">
 									Technical
 								</h3>
-								<div data-ev-id="ev_a68a6c71a2" className="flex flex-wrap gap-2">
-									<span data-ev-id="ev_f94077d4d7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">WordPress</span>
-									<span data-ev-id="ev_52040e2a13" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Front-end development</span>
-									<span data-ev-id="ev_ec493d5005" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">HTML / CSS / JS / TS</span>
-									<span data-ev-id="ev_f470066def" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">React</span>
-									<span data-ev-id="ev_73d216ad00" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">JIRA / Confluence</span>
-									<span data-ev-id="ev_864ba69f0c" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">AI — advanced</span>
+								<div data-ev-id="ev_bc7f57d418" className="flex flex-wrap gap-2">
+									<span data-ev-id="ev_ae79098348" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Elementor</span>
+									<span data-ev-id="ev_1d666c1852" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">WordPress</span>
+									<span data-ev-id="ev_0122df30b7" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">WooCommerce & payment integration</span>
+									<span data-ev-id="ev_475645629c" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Front-end development</span>
+									<span data-ev-id="ev_030c687507" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">HTML / CSS / JS / TS / React</span>
+									<span data-ev-id="ev_e38849f606" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Backend & database integration (Supabase)</span>
+									<span data-ev-id="ev_cf6751e041" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">JIRA / Confluence</span>
+									<span data-ev-id="ev_1f7b35c67d" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">AI-powered app building — advanced</span>
 								</div>
 							</div>
 
+							{/* Divider */}
+							<div data-ev-id="ev_e4621cc113" className="h-px w-full bg-gold-dark/40" />
+
 							{/* Other */}
-							<div data-ev-id="ev_2b5ee33b6a">
-								<h3 data-ev-id="ev_24ec2edd70" className="font-display text-lg text-gold uppercase tracking-wider mb-4">
+							<div data-ev-id="ev_08727bb384" className="flex flex-col md:flex-row md:items-start gap-4">
+								<h3 data-ev-id="ev_63dc79c4d0" className="font-display text-lg text-gold uppercase tracking-wider md:w-56 md:shrink-0">
 									Other
 								</h3>
-								<div data-ev-id="ev_1eb77813da" className="flex flex-wrap gap-2">
-									<span data-ev-id="ev_5b23721d91" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Public speaker</span>
-									<span data-ev-id="ev_f48730a7db" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">English — advanced</span>
-									<span data-ev-id="ev_413a25d7e1" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Serbian — native</span>
+								<div data-ev-id="ev_5cf4e69994" className="flex flex-wrap gap-2">
+									<span data-ev-id="ev_890cf47cc1" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Public speaker</span>
+									<span data-ev-id="ev_6f08b3577f" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Multilingual site delivery</span>
+									<span data-ev-id="ev_7057e994c0" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">English — advanced</span>
+									<span data-ev-id="ev_589c6c4799" className="px-3 py-1.5 text-sm text-parchment bg-gold-dark/20 border border-gold-dark/50 rounded-full">Serbian — native</span>
 								</div>
 							</div>
 						</div>
