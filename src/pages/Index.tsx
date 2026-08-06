@@ -92,6 +92,7 @@ const projects: Project[] = [
   id: 'di-restoran',
   title: 'Di Restoran',
   description: 'A comprehensive website for a restaurant in Žabalj, Serbia. Features the full menu, contact details, and is fully multilingual to cater to a diverse clientele.',
+  altText: 'Di Restoran — multilingual restaurant website from Žabalj, Serbia',
   websiteUrl: 'https://direstoran.rs/',
   screenshotUrl: projectDiRestoran
 },
@@ -99,6 +100,7 @@ const projects: Project[] = [
   id: 'mv-pharm',
   title: 'MV Pharm',
   description: 'Professional website for a pharmaceutical company, showcasing their products and services with a clean, trustworthy design.',
+  altText: 'MV Pharm — professional pharmaceutical company website',
   websiteUrl: 'https://mvpharm.rs/',
   screenshotUrl: projectMvPharm
 },
@@ -106,6 +108,7 @@ const projects: Project[] = [
   id: 'sm-energy',
   title: 'SM Energy',
   description: 'Corporate website for an energy company specializing in biogas production and renewable energy solutions.',
+  altText: 'SM Energy — corporate website for biogas and renewable energy',
   websiteUrl: 'https://smenergy.rs/',
   screenshotUrl: projectSmEnergy
 },
@@ -113,6 +116,7 @@ const projects: Project[] = [
   id: 'yvalise-studio',
   title: 'Yvalise Studio',
   description: 'Elegant fashion e-commerce website featuring a curated collection of designer clothing with a minimalist, high-end aesthetic.',
+  altText: 'Yvalise Studio — minimalist designer fashion e-commerce site',
   websiteUrl: 'https://yvalise.studio/',
   screenshotUrl: projectYvalise
 },
@@ -120,6 +124,7 @@ const projects: Project[] = [
   id: 'km-mont',
   title: 'KM Mont',
   description: 'Multilingual corporate website for a construction company specializing in pipelines and industrial installations across Europe.',
+  altText: 'KM Mont — multilingual construction company for pipeline installations',
   websiteUrl: 'https://kmmont.com/en/',
   screenshotUrl: projectKmMont
 },
@@ -127,6 +132,7 @@ const projects: Project[] = [
   id: 'dr-ljubomir-micic',
   title: 'Dr Ljubomir Micić',
   description: 'Professional website for a dental educator offering courses in minimally invasive stomatology restorations and modern dental protocols.',
+  altText: 'Dr Ljubomir Micić — dental education and training courses website',
   websiteUrl: 'https://ljubomirmicic.com/',
   screenshotUrl: projectDrMicic
 },
@@ -134,6 +140,7 @@ const projects: Project[] = [
   id: 'jb-fiscal',
   title: 'JB Fiscal Consulting',
   description: 'Corporate website for a fiscal consulting company helping technology providers and retailers stay compliant with regulatory changes across multiple countries.',
+  altText: 'JB Fiscal Consulting — regulatory compliance for tech providers',
   websiteUrl: 'https://jbfiscalconsulting.com/',
   screenshotUrl: projectJbFiscal
 },
@@ -141,6 +148,7 @@ const projects: Project[] = [
   id: 'jegricka-carda',
   title: 'Jegrička Čarda',
   description: 'Beautiful website for a traditional Serbian riverside restaurant (čarda), showcasing their authentic cuisine and rustic atmosphere by the Jegrička river.',
+  altText: 'Jegrička Čarda — traditional Serbian riverside restaurant website',
   websiteUrl: 'https://jegrickacarda.rs/',
   screenshotUrl: projectJegricka
 },
@@ -148,6 +156,7 @@ const projects: Project[] = [
   id: 'vujanic-farma',
   title: 'Vujanić Farma',
   description: 'Agricultural farm website presenting their natural goat milk products, cheese varieties, and family farming operations since 1991.',
+  altText: 'Vujanić Farma — family goat farm and dairy products website',
   websiteUrl: 'https://vujanicfarma.rs/',
   screenshotUrl: projectVujanic
 },
@@ -155,6 +164,7 @@ const projects: Project[] = [
   id: 'b164',
   title: 'B164',
   description: 'Modern website for a mountain apartment complex in Kopaonik, Serbia, blending contemporary design with traditional architecture.',
+  altText: 'B164 — modern mountain apartments in Kopaonik, Serbia',
   websiteUrl: 'https://b164.rs/',
   screenshotUrl: projectB164
 },
@@ -162,6 +172,7 @@ const projects: Project[] = [
   id: 'pincir-bio',
   title: 'Pincir Bio',
   description: 'Organic agriculture website featuring biological plant protection products, fresh vegetables, and integrated farming solutions with online ordering.',
+  altText: 'Pincir Bio — organic farming and plant protection products',
   websiteUrl: 'https://pincirbio.rs/',
   screenshotUrl: projectPincirBio
 },
@@ -169,6 +180,7 @@ const projects: Project[] = [
   id: 'lanna-thai',
   title: 'Lanna Thai',
   description: 'Elegant website for a Thai massage spa in Belgrade, featuring traditional Thai treatments, pricing, and a relaxing aesthetic that reflects the authentic Thai wellness experience.',
+  altText: 'Lanna Thai — traditional Thai massage spa in Belgrade',
   websiteUrl: 'https://lannathai.rs/',
   screenshotUrl: projectLannaThai
 }];
@@ -689,7 +701,7 @@ function ProjectCard({ project, onClick }: {project: Project;onClick: () => void
 				{project.screenshotUrl ?
         <img data-ev-id="ev_d23cd6e8bd"
         src={project.screenshotUrl}
-        alt={project.title}
+        alt={project.altText || project.title}
         className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" /> :
 
 

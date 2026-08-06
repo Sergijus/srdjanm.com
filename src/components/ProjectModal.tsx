@@ -5,6 +5,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
+  altText?: string;
   screenshotUrl?: string;
   websiteUrl?: string;
 }
@@ -65,7 +66,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             <div data-ev-id="ev_06d1a673ae" className="p-4 bg-ink-light">
 									<img data-ev-id="ev_7c2c30ce01"
               src={project.screenshotUrl}
-              alt={`${project.title} screenshot`}
+              alt={project.altText || `${project.title} screenshot`}
               className="w-full h-auto rounded border border-border-card" />
 
 								</div> :
