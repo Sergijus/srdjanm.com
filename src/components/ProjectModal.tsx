@@ -67,6 +67,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 									<img data-ev-id="ev_7c2c30ce01"
               src={project.screenshotUrl}
               alt={project.altText || `${project.title} screenshot`}
+              loading="lazy"
               className="w-full h-auto rounded border border-border-card" />
 
 								</div> :

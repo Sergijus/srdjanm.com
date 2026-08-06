@@ -262,7 +262,8 @@ export default function Index() {
 								<img data-ev-id="ev_801dbd3aa9"
                 src={srdjanShield}
                 alt="Srdjan Marinkovic portrait in ornate Gryffindor shield frame"
-                className="relative w-full h-full object-contain drop-shadow-2xl" />
+                className="relative w-full h-full object-contain drop-shadow-2xl"
+                fetchPriority="high" />
 
 							</div>
 						</motion.div>
@@ -702,6 +703,7 @@ function ProjectCard({ project, onClick }: {project: Project;onClick: () => void
         <img data-ev-id="ev_d23cd6e8bd"
         src={project.screenshotUrl}
         alt={project.altText || project.title}
+        loading="lazy"
         className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" /> :
 
 
