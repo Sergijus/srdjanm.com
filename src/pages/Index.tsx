@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'motion/react';
-import { ChevronDown, Briefcase, GraduationCap, ExternalLink, Linkedin, Mail, Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { ChevronDown, Briefcase, GraduationCap, ExternalLink, Linkedin, Mail, Facebook, Instagram } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import { EmberParticles } from '@/components/EmberParticles';
 import { ProjectModal, type Project } from '@/components/ProjectModal';
 import srdjanShield from '@/assets/uploads/srdjan-shield.png';
@@ -351,6 +352,14 @@ export default function Index() {
 
 								<Mail size={20} />
 							</a>
+							<a data-ev-id="ev_02a05aaed8"
+              href="https://wa.me/message/srdjanmarinkovic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              aria-label="WhatsApp @srdjanmarinkovic">
+								<FaWhatsapp size={20} />
+							</a>
 						</motion.div>
 					</motion.div>
 				</div>
@@ -620,7 +629,7 @@ export default function Index() {
             rel="noopener noreferrer"
             className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover"
             aria-label="WhatsApp @srdjanmarinkovic">
-							<MessageCircle size={20} />
+							<FaWhatsapp size={20} />
 						</a>
 					</div>
 				</div>
