@@ -316,49 +316,49 @@ export default function Index() {
 						<motion.div
               variants={fadeInUp}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="fixed left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-3">
+              className="fixed left-2 md:left-8 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-1.5 md:gap-3">
 
 							<a data-ev-id="ev_6c62bb74c6"
               href="https://www.facebook.com/Sergijus/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-2 md:p-3 border border-gold-dark/30 md:border-gold-dark/50 rounded-md md:rounded-lg text-gold/70 md:text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/50 md:bg-ink/80 backdrop-blur-sm"
               aria-label="Facebook">
 
-								<Facebook size={20} />
+								<Facebook className="w-4 h-4 md:w-5 md:h-5" />
 							</a>
 							<a data-ev-id="ev_79bbc84be3"
               href="https://www.instagram.com/sergijus022/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-2 md:p-3 border border-gold-dark/30 md:border-gold-dark/50 rounded-md md:rounded-lg text-gold/70 md:text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/50 md:bg-ink/80 backdrop-blur-sm"
               aria-label="Instagram">
 
-								<Instagram size={20} />
+								<Instagram className="w-4 h-4 md:w-5 md:h-5" />
 							</a>
 							<a data-ev-id="ev_442e4d3c48"
               href="https://www.linkedin.com/in/srdjan-marinkovic/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-2 md:p-3 border border-gold-dark/30 md:border-gold-dark/50 rounded-md md:rounded-lg text-gold/70 md:text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/50 md:bg-ink/80 backdrop-blur-sm"
               aria-label="LinkedIn">
 
-								<Linkedin size={20} />
+								<Linkedin className="w-4 h-4 md:w-5 md:h-5" />
 							</a>
 							<a data-ev-id="ev_d92eca199b"
               href="mailto:web.srdjan.marinkovic@gmail.com"
-              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-2 md:p-3 border border-gold-dark/30 md:border-gold-dark/50 rounded-md md:rounded-lg text-gold/70 md:text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/50 md:bg-ink/80 backdrop-blur-sm"
               aria-label="Email">
 
-								<Mail size={20} />
+								<Mail className="w-4 h-4 md:w-5 md:h-5" />
 							</a>
 							<a data-ev-id="ev_02a05aaed8"
               href="https://wa.me/message/srdjanmarinkovic"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 border border-gold-dark/50 rounded-lg text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/80 backdrop-blur-sm"
+              className="p-2 md:p-3 border border-gold-dark/30 md:border-gold-dark/50 rounded-md md:rounded-lg text-gold/70 md:text-gold hover:bg-gold/10 hover:border-gold/70 transition-all glow-gold-hover cursor-pointer bg-ink/50 md:bg-ink/80 backdrop-blur-sm"
               aria-label="WhatsApp @srdjanmarinkovic">
-								<FaWhatsapp size={20} />
+								<FaWhatsapp className="w-4 h-4 md:w-5 md:h-5" />
 							</a>
 						</motion.div>
 					</motion.div>
